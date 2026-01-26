@@ -5,21 +5,21 @@
 class Todoist < Formula
   desc "Todoist CLI - manage tasks from the command line"
   homepage "https://github.com/buddyh/todoist-cli"
-  version "0.3.0"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/buddyh/todoist-cli/releases/download/v0.3.0/todoist_0.3.0_darwin_amd64.tar.gz"
-      sha256 "33f7b6b99d001519b5c75e5d9186b4df1fa586becf38219089f0167791f52465"
+      url "https://github.com/buddyh/todoist-cli/releases/download/v0.4.0/todoist_0.4.0_darwin_amd64.tar.gz"
+      sha256 "835b07af8d345950759f61360e9c9831f3f76dcda5a35864cd3b05803c8fdd47"
 
       def install
         bin.install "todoist"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/buddyh/todoist-cli/releases/download/v0.3.0/todoist_0.3.0_darwin_arm64.tar.gz"
-      sha256 "1994cbe639939e1d0cbb60514b9478a0b4bfe4664cda3a71a66e2db25a857d96"
+      url "https://github.com/buddyh/todoist-cli/releases/download/v0.4.0/todoist_0.4.0_darwin_arm64.tar.gz"
+      sha256 "9b81c5923caee8d1428b0222b46ed63a7feb18d2815477114bfda1b7c02610fe"
 
       def install
         bin.install "todoist"
@@ -29,15 +29,15 @@ class Todoist < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/buddyh/todoist-cli/releases/download/v0.3.0/todoist_0.3.0_linux_amd64.tar.gz"
-      sha256 "52f3ffbdefa74287f675894bd244897c21732d3aaf7877b3f7907338d79e74db"
+      url "https://github.com/buddyh/todoist-cli/releases/download/v0.4.0/todoist_0.4.0_linux_amd64.tar.gz"
+      sha256 "fc21b57f3eefd6b7d33989d7e6df1c232350d5ccbb47e45855dc188d9be7031e"
       def install
         bin.install "todoist"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/buddyh/todoist-cli/releases/download/v0.3.0/todoist_0.3.0_linux_arm64.tar.gz"
-      sha256 "91c00b567b946e3f51b033eeffa0871bffa9427d9db1d02563300a8fbbb72512"
+      url "https://github.com/buddyh/todoist-cli/releases/download/v0.4.0/todoist_0.4.0_linux_arm64.tar.gz"
+      sha256 "c268daf90b1ca865939210648d437d65fae684b8e442b07ef19cf89dddd0c909"
       def install
         bin.install "todoist"
       end
