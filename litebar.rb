@@ -4,9 +4,9 @@
 class Litebar < Formula
   desc "Menu bar observability for SQLite-backed systems"
   homepage "https://github.com/buddyh/litebar"
-  url "https://github.com/buddyh/litebar/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "80477bcc7c2ddcef3826d4cea71b539f60db1a4ff15bd4cd56ab3171ef3802cf"
-  version "0.1.1"
+  url "https://github.com/buddyh/litebar/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "8d53cbe13a98d2ce35c97ba1ddeec86eac82679927bcf14697908427db6981d0"
+  version "0.1.2"
   license "MIT"
   head "https://github.com/buddyh/litebar.git", branch: "main"
 
