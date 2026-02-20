@@ -1,6 +1,6 @@
 cask "litebar" do
-  version "0.1.2"
-  sha256 "edf3b3839e2d06e3becabfc077b6decc6a44a62b2bab74be49873a513318d8d9"
+  version "0.1.3"
+  sha256 "5ac3d01bd89cfb36ae1cd87319d1050201f9cd799c3569abeda91185ae0925c1"
 
   url "https://github.com/buddyh/litebar/releases/download/v#{version}/Litebar.app.zip"
   name "Litebar"
