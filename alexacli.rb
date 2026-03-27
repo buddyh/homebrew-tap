@@ -4,28 +4,28 @@
 class Alexacli < Formula
   desc "CLI for controlling Amazon Alexa devices"
   homepage "https://github.com/buddyh/alexa-cli"
-  version "0.4.0"
+  version "0.5.0"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/buddyh/alexa-cli/releases/download/v0.4.0/alexacli_0.4.0_darwin_amd64.tar.gz"
-      sha256 "fa4928f8cd6c011f16c014cbc4ccaf58050e70a693541032f73763c5a3659c87"
+      url "https://github.com/buddyh/alexa-cli/releases/download/v0.5.0/alexacli_0.5.0_darwin_amd64.tar.gz"
+      sha256 "90c07fa6c26cfe18aa122998f0c286b3c816a8b5013a1d635609a69123de6242"
     end
     on_arm do
-      url "https://github.com/buddyh/alexa-cli/releases/download/v0.4.0/alexacli_0.4.0_darwin_arm64.tar.gz"
-      sha256 "c48262d2eee74459cb5acbd392497772ece5889c06d4c2fcd2505c9080c92072"
+      url "https://github.com/buddyh/alexa-cli/releases/download/v0.5.0/alexacli_0.5.0_darwin_arm64.tar.gz"
+      sha256 "341fa3acc8febc4f4a150b3c469123892c202b3583756ebcafee037d7118644f"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/buddyh/alexa-cli/releases/download/v0.4.0/alexacli_0.4.0_linux_amd64.tar.gz"
-      sha256 "609899d88f9a843849aaa025c078a80d81198c672e9b819c478b90e165d6caac"
+      url "https://github.com/buddyh/alexa-cli/releases/download/v0.5.0/alexacli_0.5.0_linux_amd64.tar.gz"
+      sha256 "d24d6e5173ab38b6cbd741a8c57a55af8ea6d828c8f4b324caaa9105e393570e"
     end
     on_arm do
-      url "https://github.com/buddyh/alexa-cli/releases/download/v0.4.0/alexacli_0.4.0_linux_arm64.tar.gz"
-      sha256 "802ae392d6f07e67d5d70126222c0c70eca713be1b64072c6f0d76e9631cdd7b"
+      url "https://github.com/buddyh/alexa-cli/releases/download/v0.5.0/alexacli_0.5.0_linux_arm64.tar.gz"
+      sha256 "ff19b9b17f8c890079494ac2887a6ce64e9daf465d07baecf75c4f2ce9a3525d"
     end
   end
 
