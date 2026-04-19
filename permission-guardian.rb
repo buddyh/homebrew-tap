@@ -5,21 +5,21 @@
 class PermissionGuardian < Formula
   desc "TUI dashboard for managing Claude Code and Codex permission prompts in tmux"
   homepage "https://github.com/buddyh/permission-guardian"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/buddyh/permission-guardian/releases/download/v0.1.0/permission-guardian_0.1.0_darwin_amd64.tar.gz"
-      sha256 "4085383a59f60686dd51e0516f0ab39c80b62f929ce83f91f3022a16897927a2"
+      url "https://github.com/buddyh/permission-guardian/releases/download/v0.1.1/permission-guardian_0.1.1_darwin_amd64.tar.gz"
+      sha256 "104702c877001cee263c1ce875893ccfcf5f8df891b22cb824b6f09763fe6e44"
 
       define_method(:install) do
         bin.install "pg"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/buddyh/permission-guardian/releases/download/v0.1.0/permission-guardian_0.1.0_darwin_arm64.tar.gz"
-      sha256 "abec8c9d54b2948db8ce780e9a546ee88a8e9ec464dff5085611d5f3f21f8d7b"
+      url "https://github.com/buddyh/permission-guardian/releases/download/v0.1.1/permission-guardian_0.1.1_darwin_arm64.tar.gz"
+      sha256 "e18c4326a75380544796aae0a59c4d15a0c384a99a3664b6a19f62205f0dcd3b"
 
       define_method(:install) do
         bin.install "pg"
@@ -29,15 +29,15 @@ class PermissionGuardian < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/buddyh/permission-guardian/releases/download/v0.1.0/permission-guardian_0.1.0_linux_amd64.tar.gz"
-      sha256 "38a02c5cec5767147fc83440bcd4ddc7e9b39b8bbd493f8e9330e866bf291519"
+      url "https://github.com/buddyh/permission-guardian/releases/download/v0.1.1/permission-guardian_0.1.1_linux_amd64.tar.gz"
+      sha256 "aaca7709f889eff08ce128b9838f6efdecc2beba0668ed61ac779f1b8a56a469"
       define_method(:install) do
         bin.install "pg"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/buddyh/permission-guardian/releases/download/v0.1.0/permission-guardian_0.1.0_linux_arm64.tar.gz"
-      sha256 "3c1bb2942130efe9afab9e938a6deb2f68b9ee2aa5e98ea8e526b6e85b75e49f"
+      url "https://github.com/buddyh/permission-guardian/releases/download/v0.1.1/permission-guardian_0.1.1_linux_arm64.tar.gz"
+      sha256 "498adefae73d9b1ff966442b947eda35ac105279a1dbebe3dae81075adea5492"
       define_method(:install) do
         bin.install "pg"
       end
